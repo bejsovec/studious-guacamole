@@ -9,7 +9,28 @@ int main() {
    
    /* Type your code here */
    
+   int squNum = 0;
+   int cubedNum = 0;
+   int addNum = 0;
+   int multNum = 0; 
+   int seconduserNum = 0;
+   
+   squNum = (userNum * userNum);
+   cubedNum = (userNum * userNum * userNum);
+   
    cout << "You entered: " << userNum;
+   cout << userNum << " squared is " << squNum << endl;
+   cout << userNum << " cubed is " << cubedNum << "!!" << endl;
+   
+   cout << "Enter another integer:" << endl;
+   cin  >> seconduserNum;
+   
+   addNum = userNum + seconduserNum;
+   multNum = userNum * seconduserNum; 
+   
+   cout << userNum << " + " << seconduserNum << " is " << addNum << endl;
+   cout << userNum << " * " << seconduserNum << " is " << multNum << endl;
+   
 
    return 0;
 }
